@@ -16,4 +16,11 @@ This will run a simple example written in CoffeeScript:
 bin/csp5 examples/app.coffee
 
 TODO:
-- a lot of things...
+- REPL
+- onejar
+- more examples
+- classless sketches
+- ... a lot of things
+
+ISSUES:
+... are welcome at http://github.com/bonifaido/coffee-processing/issues
