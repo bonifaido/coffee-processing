@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR="$( cd "$(dirname $0)" && pwd )"
+
+# Add 2>/dev/null if you want
+${DIR}/rhino -modules ${DIR}/../lib ${DIR}/../src/main.js $@

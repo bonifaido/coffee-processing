@@ -1,0 +1,18 @@
+coffee-processing
+=================
+
+This is my inital attempt to do Processing with CoffeeScript.
+
+coffee-processing is just a thin layer between Processing and CoffeeScript glued
+with Rhino.
+
+To use it clone the repo and follow these steps:
+
+This will donwload the Rhino and Processing (may take a while):
+bin/bootstrap
+
+This will run a simple example written in CoffeeScript:
+bin/csp5 examples/app.coffee
+
+TODO:
+- a lot of things...

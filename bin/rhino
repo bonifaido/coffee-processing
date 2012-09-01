@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# This will start a fully fledged Rhino instance with the core.jar Processing library in classpath
+
+DIR="$( cd "$(dirname $0)" && pwd )"
+CLASSPATH="${DIR}/../vendor/rhino-1.7R4.jar:${DIR}/../vendor/processing-1.5.1/lib/core.jar"
+
+java -cp $CLASSPATH org.mozilla.javascript.tools.shell.Main $@

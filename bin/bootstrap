@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIR="$( cd "$(dirname $0)" && pwd )"
+VENDOR="${DIR}/../vendor"
+
+
+mkdir -p $VENDOR && cd $VENDOR
+
+curl -O http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar
+curl -O http://processing.googlecode.com/files/processing-1.5.1-windows-expert.zip
+
+unzip processing-1.5.1-windows-expert.zip
+rm -f processing-1.5.1-windows-expert.zip
+
+ls -d processing-1.5.1/* | grep -v lib | xargs rm -rf
