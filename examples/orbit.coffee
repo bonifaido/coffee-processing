@@ -38,4 +38,4 @@ class Orbit
       @popMatrix()
 
 
-Processing.sketch(Orbit, 'Orbit')
+Processing.sketch Orbit, 'Orbit'

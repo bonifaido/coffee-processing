@@ -60,4 +60,4 @@ class Characters
       arclength += w/2
 
 
-Processing.sketch(Characters, 'Characters along a curve')
+Processing.sketch Characters, 'Characters along a curve'
