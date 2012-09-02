@@ -2,7 +2,7 @@
 # Daniel Shiffman
 # http://www.learningprocessing.com
 # Example 17-8: Characters along a curve
-# Adopted to CoffeeScript 
+# Adapted to CoffeeScript 
 
 Processing = require('processing').Processing
 
