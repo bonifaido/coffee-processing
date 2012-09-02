@@ -7,8 +7,7 @@
 Processing = require('processing').Processing
 
 
-class Characters extends Processing
-
+class Characters
   setup: () ->
     @msg = "text along a curve"
     @r = 100

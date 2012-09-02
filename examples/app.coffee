@@ -1,7 +1,7 @@
 Processing = require('processing').Processing
 
 
-class DemoSketch extends Processing
+class DemoSketch
   setup: () ->
     @size 300, 300
     @background 0
@@ -15,5 +15,6 @@ class DemoSketch extends Processing
     @color (@random 0, 255), (@random 0, 255), (@random 0, 255)
     @ellipse x, y, size, size
     @background 0 if @frameCount % 100 is 0
+
 
 Processing.sketch(DemoSketch, "https://gist.github.com/1114064")
