@@ -9,10 +9,10 @@ Processing = require('processing').Processing
 
 class Characters
   setup: () ->
-    @msg = "text along a curve"
+    @msg = 'text along a curve'
     @r = 100
     @size 320, 320
-    f = @createFont "Georgia", 40, true
+    f = @createFont 'Georgia', 40, true
     @textFont f
     @textAlign Processing.CENTER
     @smooth()
@@ -60,4 +60,4 @@ class Characters
       arclength += w/2
 
 
-Processing.sketch(Characters, "Characters along a curve")
+Processing.sketch(Characters, 'Characters along a curve')

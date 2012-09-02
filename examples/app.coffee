@@ -17,4 +17,4 @@ class DemoSketch
     @background 0 if @frameCount % 100 is 0
 
 
-Processing.sketch(DemoSketch, "https://gist.github.com/1114064")
+Processing.sketch(DemoSketch, 'https://gist.github.com/1114064')
