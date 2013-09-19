@@ -3,7 +3,7 @@ Processing = require('processing').Processing
 
 class DemoSketch
   setup: () ->
-    @size 300, 300
+    @size 640, 480
     @background 0
     @noFill
     @frameRate 10

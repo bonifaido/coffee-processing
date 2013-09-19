@@ -3,7 +3,7 @@ Processing = require('processing').Processing
 
 class NoiseWave
   setup: () ->
-    @size 200, 200
+    @size 640, 480
     @frameRate 30
 
     @colorMode Processing.RGB, 255, 255, 255, 100

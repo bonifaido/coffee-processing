@@ -11,7 +11,7 @@ class Characters
   setup: () ->
     @msg = 'text along a curve'
     @r = 100
-    @size 320, 320
+    @size 640, 480
     f = @createFont 'Georgia', 40, true
     @textFont f
     @textAlign Processing.CENTER

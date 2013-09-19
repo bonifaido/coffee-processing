@@ -5,7 +5,7 @@ Processing = require('processing').Processing
 
 class Orbit
   setup: () ->
-    @size 450, 450
+    @size 640, 480
     @frameRate 30
     @smooth()
     @fill 0
@@ -13,7 +13,7 @@ class Orbit
 
   draw: () ->
     @background 255
-    @translate 225, 225
+    @translate @width / 2, @height / 2
 
     @textFont @f
     @ellipse 0, 0, 10, 10
